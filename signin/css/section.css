@@ -1,0 +1,73 @@
+@font-face {
+    font-family: rubik;
+    src: url(../../font/Rubik.ttf);
+}
+body{
+    font-family: rubik;
+}
+.height{
+    height: 100vh;
+}   
+.img{
+    object-fit: cover;
+}
+.brown{
+    color: #6A4029;
+}
+.bgbrown{
+    background-color: #6A4029;
+}
+.bgyellow{
+    background-color: #ffba33;
+}
+.silver{
+    color: #4F5665;
+}
+.fs20{
+    font-size: 20px;
+}
+.fs15{
+    font-size: 15px;
+}
+.fs12{
+    font-size: 12px;
+}
+.form{
+    /* background-color: green; */
+    padding-top: 50px;
+}
+.input{
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+.btn-ctm{
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+@media screen and (max-width:576px){
+    .height{
+        height: auto;
+    }
+    .image{
+        display: none;
+    }
+    .form {
+        padding-top: 50px;
+    }
+    footer{
+        height: 600px;
+    }
+}
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+    .image{
+        display: none;
+    }
+    .height{
+        height: auto;
+    }
+    footer{
+        height: 620px;
+    }
+}

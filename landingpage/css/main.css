@@ -1,0 +1,345 @@
+@font-face {
+    font-family: rubik;
+    src: url(../../font/Rubik.ttf);
+}
+body{
+    font-family: rubik;
+}
+
+.bg-image{
+    background-image: url('https://s3-alpha-sig.figma.com/img/57c5/d504/de26c540ca74fd712a0e636cd4cdc0fb?Expires=1621814400&Signature=fZMx8FNLoRZvg-DGi9MFekxJyW6PCk-QiA2kBDcOK0~rrYtN6I8o9bMEtPda5MhyhUbon5CnbzDqD41tbQtb50EpJeg9-WNYEYn1dzlnKsxeZoElib3GuVm76rw6wM9AMkZmEqnagWVKLzqeL8nnWFq8mZNX2uRZUix2QfaUj~Xtz6p3foXLfZreBOBOycrDjPVW--dY41JKos5er0jqgTKGOU0iz0tjVn4pTdVLy9Ev4~ZvSjvBQQ8zHFVZ4~P~WprtbgN~KzR3nuakXS8jOjbSa6y3mXPZmLJ4eav5YstgtWIdgtPQPqLdikBKuOPl63d8aslXcPS7cIls82feyA__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA');
+    background-position: center;
+    background-size: cover;
+    height: 460px;
+    width: 100%;
+}
+main .info {
+    position: absolute;
+    bottom: 120px;
+    font-family: rubik;
+}
+
+main .infomenu {
+    border-radius: 10px;
+    box-shadow: 1px 10px 10px #c5c3c3;
+}
+
+main .infomenu .staff {
+    border-right: 1px solid #c5c3c3;
+    width: 500px;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+main .infomenu .staff .icon {
+    width: 40px;
+    height: 40px;
+    background-color: #ffba33;
+    margin-right: 14px;
+}
+
+main .infomenu .staff .title h1 {
+    font-size: 20px;
+    font-family: rubikbold;
+    margin: 0px;
+}
+
+main .infomenu .staff .title p {
+    font-size: 14px;
+    margin: 0px;
+}
+
+.title-text{
+    width: 550px;
+}
+.tag-text{
+    width: 565px;
+}
+.btn-get{
+    border-radius: 10px;
+    padding: 8px 50px;
+}
+
+main .peoplefavorite {
+    margin: 50px 120px;
+    /* border: 1px solid saddlebrown; */
+}
+
+main .peoplefavorite .title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main .peoplefavorite .title h1 {
+    font-size: 20px;
+    /* border: 1px solid aqua; */
+    margin: 0px;
+}
+
+main .peoplefavorite .title p {
+    /* border: 1px solid hotpink; */
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+main .peoplefavorite .favoriteproduct {
+    display: flex;
+    justify-content: center;
+}
+
+main .peoplefavorite .favoriteproduct .product {
+    border: 2px solid #dddddd;
+    position: relative;
+    margin-top: 100px;
+    margin-left: 20px;
+    margin-bottom: 30px;
+    padding: 20px 40px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    transition-duration: 0.5s;
+}
+
+main .peoplefavorite .favoriteproduct .product:hover {
+    border: 2px solid #6A4029;
+    transform: scale(1.1);
+}
+
+main .peoplefavorite .favoriteproduct .product .round-border {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    overflow: hidden;
+    top: -50px;
+    left: 75px;
+    right: 75px;
+    border-radius: 100px;
+    border: 1px solid #CCCCCC;
+}
+
+main .peoplefavorite .favoriteproduct .product h1 {
+    margin-top: 50px;
+    margin-bottom: 0px;
+    font-size: 16px;
+    font-weight: 700;
+    /* height: 20px; */
+}
+
+main .peoplefavorite .favoriteproduct .product .listmenu {
+    margin-top: 10px;
+    font-size: 12px;
+    /* border: 1px solid green; */
+    height: 250px;
+}
+
+main .peoplefavorite .favoriteproduct .product .listmenu svg {
+    margin-right: 5px;
+}
+
+main .peoplefavorite .favoriteproduct .product .listmenu p {
+    margin-top: 20px;
+}
+
+main .peoplefavorite .favoriteproduct .product h2 {
+    margin-top: 20px;
+    font-size: 20px;
+    margin-bottom: 0px;
+}
+
+main .peoplefavorite .favoriteproduct .product button {
+    margin-top: 10px;
+    padding: 10px 50px;
+    font-family: rubik;
+    font-size: 12px;
+    border-radius: 30px;
+    background-color: white;
+    border: 2px solid #ffba33;
+    cursor: pointer;
+    color: #6A4029;
+    font-weight: 700;
+}
+
+main .peoplefavorite .favoriteproduct .product button:hover {
+    background-color: #ffba33;
+    border: 2px solid transparent;
+}
+.brown{
+    color: #6A4029;
+}
+.bgyellow{
+    background-color: #ffba33;
+}
+.widthtext{
+    width: 420px;
+}
+.fsh1{
+    font-size: 35px;
+}
+.fsp{
+    font-size: 15px;
+}
+.fs12{
+    font-size: 12px;
+}
+.rwcard{
+    overflow-x: auto;
+    white-space: nowrap;  
+}
+.logo img{
+    width: auto;
+    height: 50px;
+    filter: grayscale(100%);
+    margin: 20px 15px;
+}   
+
+@media screen and (max-width:576px){
+    main{
+        width: auto;
+    }
+    .bg-image{
+        height: 400px;
+    }
+    .title-text{
+        width: 100%;
+    }
+    .tag-text {
+        width: auto;
+        font-size: 15px;
+    }
+    main .info {
+        position: static;
+        width: auto;
+        bottom: 0px;
+    }
+
+    main .infomenu {
+        border-radius: 0px;
+        width: 100px;
+        box-shadow: 1px 10px 10px transparent;
+    }
+    .infomenu .staff{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    .infomenu .staff .icon{
+        width: 15px;
+        height: 15px;
+    }
+    main .infomenu .staff .icon svg {
+        width: 12px;
+        height: 12px;
+    }
+    main .infomenu .staff .title h1 {
+        margin: 0px;
+    }
+
+    main .infomenu .staff .title p {
+        margin: 0px;
+        font-size: 10px;
+        font-family: rubik;
+    }
+    main .peoplefavorite {
+        /* border: 1px solid hotpink; */
+        width: auto;
+        margin: 30px 0px;
+    }
+
+    main .peoplefavorite .title h1 {
+        font-size: 15px;
+    }
+
+    main .peoplefavorite .title p {
+        font-size: 12px;
+        width: 250px;
+        text-align: center;
+    }
+
+    main .peoplefavorite .favoriteproduct {
+        width: 100%;
+        justify-content: flex-start;
+        overflow-x: auto;
+    }
+
+    main .peoplefavorite .favoriteproduct .product {
+        padding: 15px 30px;
+        margin: 100px 10px;
+    }
+
+    main .peoplefavorite .favoriteproduct .product .round-border {
+        left: 50px;
+    }
+
+    .imageteamwork{
+        display: none;
+    }
+    .fsh1{
+        width: auto;
+        text-align: center;
+        font-size: 15px;
+    }
+    .fsp{
+        width: auto;
+        text-align: center;
+        font-size: 10px;
+    }
+    .map svg {
+        width: 350px;
+        height: auto;
+    }
+    .partner{
+        width: 100%;
+    }
+    .logo img{
+        height: 20px;
+    }
+    footer {
+        height: 620px;
+    }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1){
+    main{
+        width: auto;
+    }
+    main .info {
+        position: static;
+        width: auto;
+        bottom: 0px;
+    }
+
+    main .infomenu {
+        border-radius: 0px;
+        width: 100%;
+        box-shadow: 1px 10px 10px transparent;
+    }
+    .imageteamwork img {
+        height: 300px;
+    }
+    .fsh1{
+        font-size: 15px;
+    }
+    .fsp{
+        width: 300px;
+        font-size: 10px;
+    }
+    main .info{
+        bottom: 450px;
+    }
+    
+    .fsp{
+        width: auto;
+        
+    }
+    .map svg{
+        width: 700px;
+        height: auto;
+    }
+    footer {
+        height: 620px;
+    }
+}
